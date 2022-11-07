@@ -47,7 +47,7 @@ simplest case first.
 
 In [divide.py](../nologic/examples/divide.py), we have defined an odd_divide and an even_divide function
 to cover both state possibilities. There are no conditional statements allowed, except the one in 
-`state_selector` which matches the states with the pre-condition defined in each function. 
+`state_selector` which matches the states with the precondition defined in each function. 
 
 ### Permutations Example
 

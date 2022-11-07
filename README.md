@@ -4,7 +4,7 @@
 ### Programming without conditions
 
 NOLOGIC is an attempt to define a new programming paradigm based on using state 
-and pre-conditions as a replacement for branching logic. One of the goals of the language 
+and preconditions as a replacement for branching logic. One of the goals of the language 
 is to encourage defensive programming by eliminating choice from code, and instead defining
 flow of logic based on matching of state conditions. It is a computation model that comes 
 directly from the [MapReduce](https://en.wikipedia.org/wiki/MapReduce) paradigm. Like MapReduce, parallelism and pattern matching 
@@ -14,7 +14,7 @@ The philosophy of NOLOGIC is to be EXPLICIT about assumptions programmers make i
 Rather than rely on conventions, style guides, and "best practice" suggestions, NOLOGIC is an 
 attempt to limit the scope of IMPLICIT characteristics of code. While traditional thinking about 
 functions is that they are blocks of code which accept values and return values, NOLOGIC takes 
-a different approach where functions must define pre-conditions in order to be called. In that regard, 
+a different approach where functions must define preconditions in order to be called. In that regard, 
 functions have context, they are not just blocks of reusable code which are not aware of their calling
 environment.
 
