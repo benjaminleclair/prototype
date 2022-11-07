@@ -49,3 +49,11 @@ By requiring programmers to EXPLICITLY add these to function or class definition
 defensive programming is again encouraged in a much deeper way than in many general purpose languages.
 
 
+### Examples
+
+To run examples from a terminal on an environment with Python 3 installed:
+```
+cd nologic
+python examples/divide.py
+python examples/permute.py
+```
